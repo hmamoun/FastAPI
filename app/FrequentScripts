@@ -1,1 +1,12 @@
 python -m uvicorn app.main:app --reload
+
+
+git remote
+
+git add --all
+git commit -m "something"
+git push origin main
+git push heroku main
+
+
+heroku run "alembic upgrade head"
