@@ -15,7 +15,7 @@ print(settings.database_username)
 
 app = FastAPI()
 
-origins = ["https://www.google.com", "https://www.youtube.com","*"]
+origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
